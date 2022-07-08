@@ -4,11 +4,12 @@
     <title>HTMLタグ一覧</title>
     <meta charset="utf-8">
   </head>
+
   <body>
-    <div>
+    <div style="text-align: right;">
       <a href="index.html">homeページ</a>
-      <a href="tags.html">HTMLタグ一覧</a>
-      <a href="moby_dick.html">読書案内『Moby Dick』</a>
+      <a href="tags.html" style="margin: 0 0 0 10px;">HTMLタグ一覧</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px;">読書案内『Moby Dick』</a>
     </div>
 
     <h1>重要なHTMLタグ一覧</h1>
@@ -85,10 +86,19 @@
         <td>リスト項目（list item）</td>
         <td>リストの各項目を示す</td>
       </tr>
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>引用（blockquote）</td>
+        <td>引用や転載であることを表す</td>
+      </tr>
+      <tr>
+        <td><code>br</code></td>
+        <td>改行（brake）</td>
+        <td>改行する</td>
+      </tr> 
     </table>
 
     <h2>インライン要素（inline element）</h2>
-
     <table>
       <tr>
         <th>HTMLタグ</th>
@@ -136,6 +146,17 @@
         <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
       </tr>
       <tr>
+        <td><code>code</code></td>
+        <td>コード（code）</td>
+        <td>ソースコードとして整形する</td>
+        <td>
+          <code>
+            &lt;code&gt;table&lt;/code&gt;
+          </code>
+        </td>
+        <td><code>table</code></td>
+      </tr>      
+      <tr>
         <td><code>span</code></td>
         <td>スパン（span）</td>
         <td>インラインレベルでページの区切りを設定する</td>
@@ -145,6 +166,40 @@
           </code>
         </td>
         <td><span>イシュマエルと呼んでくれ。</span></td>
+      </tr>
+    </table>
+    
+    <h2>ドキュメントタグ</h2>
+    <table>
+      <tr>
+        <th>HTMLタグ</th>
+        <th>タグ名</th>
+        <th>目的</th>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td></td>
+        <td>その文書がHTML文書であることを指定する。</td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td></td>
+        <td>htmlファイルの情報を宣言する。</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td></td>
+        <td>実際にブラウザの画面上に表示される内容を指定する。</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td></td>
+        <td>文書にタイトルをつけるタグ。</td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td></td>
+        <td>文書のメタ情報を指定する。</td>
       </tr>
     </table>
   </body>
